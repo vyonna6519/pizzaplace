@@ -47,29 +47,18 @@
     transform: scale(1.1);
   }
 
-  .welcome {
-    background-image: url(/images/pizzatop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    color:rgb(53, 77, 16);
-    
-  }
 
-  .header {
-    margin-top: 20px;
-  }
 
-  .welcome h1 {
-    margin-top: 135px;
-    font-weight: bolder;
-    padding-top:340px;
+ 
+
+.welcome img {
+  background-size: cover;
+  background-repeat: no-repeat;
+ width: 100%;
 }
+  
 
-.par {
-  font-weight: bolder;
-  font-size: 20px;
-}
+  
 
 .about {
   padding:2rem 0;
