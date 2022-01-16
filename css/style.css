@@ -248,3 +248,60 @@ margin-bottom: 3rem;
   transform: scale(.8);
   cursor: pointer;
 }
+
+.order {
+  background: orange;
+  margin-top: 10px;
+}
+
+.order form {
+  background: white;
+  width: 100%;
+}
+
+.order form .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.order form .box-container .box {
+flex: 1 1 41rem;
+}
+
+.order form .box-container .box input,
+.order form .box-container .box textarea{
+width: 100%;
+margin: 0.5rem ;
+padding: 1.2rem 1.4rem;
+font-size: 1.5rem;
+color: black;
+border: 0.2rem solid rgba(0,0,0,0.1);
+}
+
+.order form .box-container .box input::placeholder,
+.order form .box-container .box textarea::placeholder{
+  text-transform: capitalize;
+}
+
+.order form .box-container .box input:focus,
+.order form .box-container .box textarea:focus {
+background: black;
+color: white;
+}
+
+.order form .box-container .box input:focus:placeholder,
+.order form .box-container .box textarea:focus:placeholder{
+  color: white;
+}
+
+.order form .box-container .box textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.order form .box-container .box .map{
+  height: 20rem;
+  width: 100%;
+  margin: 1rem;
+}
