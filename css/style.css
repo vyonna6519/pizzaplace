@@ -71,6 +71,10 @@
   font-size: 20px;
 }
 
+.about {
+  padding:2rem 0;
+}
+
 .about p {
   font-size: 20px;
   font-weight: bolder;
@@ -82,4 +86,14 @@
   
 }
 
-.heading
+.heading {
+  padding: 2rem 0;
+}
+
+.heading span{
+  background:rgb(255, 196, 2);
+  color:#fff;
+  display: inline-block;
+  padding : 1rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
