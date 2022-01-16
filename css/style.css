@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
     background: rgb(255, 196, 2) !important;
   }
@@ -41,3 +46,27 @@
     color: #ffffff;
     transform: scale(1.1);
   }
+
+  .welcome {
+    background-image: url(/images/pizzatop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color:rgb(53, 77, 16);
+    
+  }
+
+  .header {
+    margin-top: 20px;
+  }
+
+  .welcome h1 {
+    margin-top: 135px;
+    font-weight: bolder;
+    padding-top:340px;
+}
+
+.par {
+  font-weight: bolder;
+  font-size: 20px;
+}
