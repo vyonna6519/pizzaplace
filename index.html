@@ -128,7 +128,7 @@
     </section>
 
 
-    <div id="myform" class="">
+    <section id="form" class="">
       <form method="post" class="border border-light p-5 form-group" name="orderform" id="orderform">
           <h5 class="origin display-5 text-center underline">
               FILL IN YOUR 0RDER
@@ -163,9 +163,9 @@
               <select class="mdb-select md-form mb-4 initialized form-control" id="crustselect"
                   name="crust">
                   <option value="" disabled selected>CHOOSE  CRUST</option>
-                  <option value="100">Crispy - 100 KES</option>
-                  <option value="150">Stuffed - 150 KES</option>
-                  <option value="200">Glutten-free - 200 KES</option>
+                  <option value="150">Crispy - 150 KES</option>
+                  <option value="250"> Glutten-free - 250 KES</option>
+                  <option value="200">thin - 200 KES</option>
               </select>
           </div>
 
@@ -175,21 +175,21 @@
               <div class="form-check form-control">
 
                   <input type="checkbox" class="form-check-input" id="pepperoni" name="toppings"
-                      value="250" onchange="toppingsPrice()" />
+                      value="300" onchange="toppingsPrice()" />
                   <label class="form-check-label" for="pepperoni">
                       PEPPERONI - 300 KES</label>
               </div>
               <div class="form-check form-control">
-                  <input type="checkbox" class="form-check-input" id="bacon" name="toppings"
-                      value="300" onchange="toppingsPrice()" />
+                  <input type="checkbox" class="form-check-input" id="bbq-chicken" name="toppings"
+                      value="200" onchange="toppingsPrice()" />
                   <label class="form-check-label" for="bacon">
-                      BACON - 200 KES</label>
+                      BBQ-CHICKEN - 200 KES</label>
               </div>
               <div class="form-check form-control">
-                  <input type="checkbox" class="form-check-input" id="mushroom" name="toppings"
+                  <input type="checkbox" class="form-check-input" id="beef" name="toppings"
                       value="350" onchange="toppingsPrice()" />
                   <label class="form-check-label" for="mushroom">
-                      MUSHROOM - 350 KES</label>
+                      BEEF - 350 KES</label>
               </div>
               <p><strong>Total:</strong> <input type="number" size="2" name="total" value=""
                       class="form-control" id="total" /></p>
@@ -244,7 +244,7 @@
 </div>
 </div>
 
-</div>
+    </section>
 
 <!-- END ORDER FORM -->
 

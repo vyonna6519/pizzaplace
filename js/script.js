@@ -2,12 +2,12 @@ $("input[name='delivery']").on("click", function () {
   $(".deladdress").toggle(this.value == "50" && this.checked);
 });
 
-var price = function (size, crust, toppings, quantity, deliver) {
+let price = function (size, crust, toppings, quantity, deliver) {
   return ((size + crust + toppings) * quantity) + deliver
 };
 
-var toppingsPrice = function checkTotal() {
-  document.orderform.total.value = '';
+let toppingsPrice = function checkTotal() {
+  document.form.total.value = '';
   var sum = 0;
   for (i = 0; i < document.orderform.toppings.length; i++) {
     if (document.orderform.toppings[i].checked) {
@@ -18,50 +18,43 @@ var toppingsPrice = function checkTotal() {
 }
 
 function totalprice(form) {
-  var fname = document.forms["orderform"]["fname"].value;
+  let fname = document.forms["orderform"]["fname"].value;
   if (fname == "") {
     alert("First name must be filled out");
     return false;
   }
-  var lname = document.forms["orderform"]["lname"].value;
+  let lname = document.forms["orderform"]["lname"].value;
   if (lname == "") {
     alert("Last name must be filled");
     return false;
   }
-  var size = parseInt(document.forms["orderform"]["sizes"].value);
+  let size = parseInt(document.forms["orderform"]["sizes"].value);
   if (size == "") {
     alert("size must be filled");
     return false;
   }
-  var crust = parseInt(document.forms["orderform"]["crust"].value);
+  let crust = parseInt(document.forms["orderform"]["crust"].value);
   if (crust == "") {
     alert("Crust must be filled");
     return false;
   }
-  var toppings = parseInt(document.getElementById("total").value);
+  let toppings = parseInt(document.getElementById("total").value);
   if (toppings == "") {
     alert("Toppings must be filled");
     return false;
   }
-  var quantity = parseInt(document.forms["orderform"]["quantity"].value);
+  let quantity = parseInt(document.forms["orderform"]["quantity"].value);
   if (quantity == "") {
     alert("Quantity must be filled");
     return false;
   }
-  var deliver = parseInt(document.querySelector('input[name="delivery"]:checked').value);
-  // if (deliver == "") {
-  //     alert("Delivery option must be  selected")();
-  //     return false;
-  //   }
-  var result = price(size, crust, toppings, quantity, deliver);
-  //  document.getElementById("output").innerHTML = result;
+  let deliver = parseInt(document.querySelector('input[name="delivery"]:checked').value);
+
+  let result = price(size, crust, toppings, quantity, deliver);
   alert(result);
 
 
-  var fullName = lname + (" ") + fname;
-  // var crustey = crust;
-  // var sizey = size;
-  // var top = toppings;
+  let fullName = fname + (" ") + lname;
   document.getElementById("custname").innerHTML = ("Name: ") + fullName;
   document.getElementById("output").innerHTML = ("Total order is = ") + result + (" KSH");
 }
