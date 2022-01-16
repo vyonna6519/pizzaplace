@@ -98,10 +98,16 @@
   clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
 
+.services
+ {
+   background: rgb(189, 187, 187) ;
+   height: 100%;
+ }
 .services .box-container {
   display: grid;
   grid-template-columns:repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
+  margin-bottom: 50px;
 }
 
 .services .box-container .box {
@@ -135,59 +141,13 @@ outline-offset: 0rem;
   padding: 1rem 0;
 }
 
-.menu .menu-slider {
-  padding: 1rem;
-  width: fit-content;
-  
+.menu {
+  margin-bottom: 50px;
 }
 
-.menu .menu-slider:first-child {
-margin-bottom: 2rem;
-
-
-} 
-
-.menu .menu-slider .box {
-  width: auto;
-  background: #fff;
-  border-radius: 4rem;
-  text-align: center;
-  padding: 3rem 2rem;
-  outline-offset: -1rem;
-  outline:0.5rem solid rgba(0,0,0,0.1);
-  box-shadow: 0.7rem rgba(0,0,0,0.1);;
-  transition: 2s linear;
-
+#form {
+  background:rgb(189, 187, 187) ;
 }
-
-.menu .menu-slider .box:hover{
-  outline-offset: 0rem;
-  outline:0.3rem solid black;
-}
-
-.menu .menu-slider .box img {
-height: 20rem;
-}
-
-.menu .menu-slider .box h3 {
-  font-size: 2.5 rem;
-  color: black;
-}
-
-.menu .menu-slider .box .price {
-  font-size: 2 rem;
-  color: black;
-  padding: 3rem 0;
-}
-
-.menu .menu-slider .box .rating i {
-  font-size: 1.6 rem;
-  color:orange;
-  padding: 3rem 0;
-} 
-
-
-
 
 
 .footer {
