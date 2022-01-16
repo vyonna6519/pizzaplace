@@ -305,3 +305,19 @@ color: white;
   width: 100%;
   margin: 1rem;
 }
+
+
+.footer {
+  text-align: center;
+  background: rgb(255, 196, 2);
+}
+
+.footer .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min-max( 25rem, 1fr));
+}
+
+.footer .icons-container .icons {
+  text-align: center;
+  padding: 2rem;
+}
