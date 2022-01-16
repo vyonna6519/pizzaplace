@@ -22,8 +22,7 @@ var swiper = new Swiper(".menu-slider", {
   var swiper = new Swiper(".extras-slider", {
     loop: true,
     spaceBetween: 40,
-    autoHeight: true,
-    
+    autoheight: true,
     breakpoints: {
       0: {
         slidesPerView: 1,
