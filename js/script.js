@@ -36,3 +36,15 @@ var swiper = new Swiper(".menu-slider", {
       },
     },
   });
+
+  $('.submit').click(function () {
+    var Name = $('#name').val();
+    var extras = $('#extras').val();
+    var Address = $('#address');
+    if (Name == '' || address == '' || extras == '') {
+        alert('Please fill in the form correctly!');
+    } else {
+        alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+    }
+  });
+  
