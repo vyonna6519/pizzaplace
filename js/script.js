@@ -1,6 +1,6 @@
 var swiper = new Swiper(".menu-slider", {
     loop: true,
-    spaceBetween: 40,
+    spaceBetween: 30,
     autoplay: {
         delay:7500,
     },

@@ -149,11 +149,9 @@ margin-bottom: 2rem;
 
 .menu .menu-slider .box {
   width: auto;
-  display: block;
   background: #fff;
   border-radius: 4rem;
   text-align: center;
-  padding-left: 250px;
   padding: 3rem 2rem;
   outline-offset: -1rem;
   outline:0.5rem solid rgba(0,0,0,0.1);
