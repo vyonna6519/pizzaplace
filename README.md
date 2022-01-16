@@ -13,7 +13,7 @@ You can install it with the following command in your terminal
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-2. Use this command to clone `$ git clone `
+2. Use this command to clone `$ git clone https://vyonna6519.github.io/pizzaplace/ `
 * This will clone the repository into your local folder
 ### Technologies Used
 1. HTML
@@ -22,6 +22,6 @@ To access this project on your local files, you can clone it using these steps
 4. Bootstrap
 
 ### Live Site
-View [Live]()
+View [Live](https://vyonna6519.github.io/pizzaplace/)
 ### License
 This project is under the  [MIT](LICENSE.md) license
