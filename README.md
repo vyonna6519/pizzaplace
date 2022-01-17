@@ -5,7 +5,7 @@ By Vyonna Njenga
 ### Description
 This is a website application where customers can order different sizes of pizzas with one or more toppings and also get delivery at a fee.  
 ### Screenshot
-![Screenshot from 2022-01-16 23-48-54](https://user-images.githubusercontent.com/93370913/149677537-7102722e-6a1d-4529-8129-14bf26d7d172.png)
+![Screenshot from 2022-01-17 16-38-15](https://user-images.githubusercontent.com/93370913/149779089-d325a6bb-f941-445e-afdc-5488ed661a8d.png)
 
 ### Prerequisities
 You need to have git installed
