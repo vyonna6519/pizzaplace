@@ -17,10 +17,10 @@ To access this project on your local files, you can clone it using these steps
 2. Use this command to clone `$ git clone https://vyonna6519.github.io/pizzaplace/ `
 * This will clone the repository into your local folder
 ### Technologies Used
-1. HTML
-2. CSS
-3. Javascript
-4. Bootstrap
+1. HTML-For building structure
+2. CSS-For styling
+3. Javascript-For object manipulation
+4. Bootstrap-For styling interface
 
 ### Live Site
 View [Live](https://vyonna6519.github.io/pizzaplace/)
