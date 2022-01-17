@@ -28,14 +28,20 @@ function totalprice(form) {
     alert("Last name must be filled");
     return false;
   }
+  let crust = parseInt(document.forms["orderform"]["crust"].value);
+  if (crust == "") {
+    alert("Crust must be filled");
+    return false;
+  }
   let size = parseInt(document.forms["orderform"]["sizes"].value);
   if (size == "") {
     alert("size must be filled");
     return false;
   }
-  let crust = parseInt(document.forms["orderform"]["crust"].value);
-  if (crust == "") {
-    alert("Crust must be filled");
+  
+  let quantity = parseInt(document.forms["orderform"]["quantity"].value);
+  if (quantity == "") {
+    alert("Quantity must be filled");
     return false;
   }
   let toppings = parseInt(document.getElementById("total").value);
@@ -43,11 +49,7 @@ function totalprice(form) {
     alert("Toppings must be filled");
     return false;
   }
-  let quantity = parseInt(document.forms["orderform"]["quantity"].value);
-  if (quantity == "") {
-    alert("Quantity must be filled");
-    return false;
-  }
+  
   let deliver = parseInt(document.querySelector('input[name="delivery"]:checked').value);
 
   let result = price(size, crust, toppings, quantity, deliver);
